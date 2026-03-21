@@ -1,5 +1,4 @@
 https://github.com/260078247/assignment-1-duduzile-trisha-mbhele.git
-https://github.com/260078247/assignment-1-duduzile-trisha-mbhele.git
 
 Name: Duduzile Trisha Mbhele
 Student Number: 260078247
