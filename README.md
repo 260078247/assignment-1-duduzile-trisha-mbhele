@@ -24,33 +24,47 @@ This project demonstrates the deployment of a lightweight Kubernetes cluster usi
  1. Connect to EC2 Instance
 
 export PS1="assignment-1-duduzile-k3s-server@ip-98.81.2.20:~$"
+
 export PS1="assignment-1-duduzile-k3s-agent@ip-34.229.188.210:~$"
 
 //Update System Packages on instances
 
 #agent: sudo apt update -y
+
 #server: sudo apt update -y
 
-Install K3s (Control Plane)
+//Install K3s (Control Plane)
 
 curl -sfL https://get.k3s.io | sh -
 
 //Verify Node
+
 kubectl get nodes
 
 //Check Pods
+
 kubectl get pods -A
+
 //Verify Cluster
+
 sudo kubectl get nodes
 
 HELM DEPLOYMENT
+
 //Install helm
+
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+
  //Deploy Nginx
+ 
 sudo chmod 644 /etc/rancher/k3s/k3s.yaml
+
 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+
 kubectl get nodes
+
 helm repo add bitnami https://charts.bitnami.com/bitnami
+
 helm repo update
 helm install my-nginx bitnami/nginx
 kubectl get pods
