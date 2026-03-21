@@ -22,14 +22,17 @@ This project demonstrates the deployment of a lightweight Kubernetes cluster usi
  Installation Steps
 //bash
  1. Connect to EC2 Instance
+
 export PS1="assignment-1-duduzile-k3s-server@ip-98.81.2.20:~$"
 export PS1="assignment-1-duduzile-k3s-agent@ip-34.229.188.210:~$"
 
 //Update System Packages on instances
+
 #agent: sudo apt update -y
 #server: sudo apt update -y
 
 Install K3s (Control Plane)
+
 curl -sfL https://get.k3s.io | sh -
 
 //Verify Node
