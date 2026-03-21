@@ -73,22 +73,22 @@ This architecture is suitable for scalable and distributed applications, and mir
 
 ## Cluster Verification
 ### Nodes
-![Nodes Output](screenshots/agent-nodes.png)
-![Nodes Output](screenshots/server-nodes.png)
+![Nodes Output](Screenshots/agent-nodes.png)
+![Nodes Output](Screenshots/server-nodes.png)
 
 ### Pods
-![Pods Output](screenshots/agent-pods.png)
-![Pods Output](screenshots/server-pods.png)
+![Pods Output](Screenshots/agent-pods.png)
+![Pods Output](Screenshots/server-pods.png)
 
 ### running instances
-![instances Output](screenshots/ec2-instance-agent.png)
-![instances Output](screenshots/ec2-instance-server.png)
-![ubuntu-sos Output](screenshots/ec2-ubuntu-agent.png)
-![ubuntu-sos Output](screenshots/ec2-ubuntu-server.png)
+![instances Output](Screenshots/ec2-instance-agent.png)
+![instances Output](Screenshots/ec2-instance-server.png)
+![ubuntu-sos Output](Screenshots/ec2-ubuntu-agent.png)
+![ubuntu-sos Output](Screenshots/ec2-ubuntu-server.png)
 
 ### Deployment verification
-![deployment Output](screenshots/agent-deployment.png)
-![deployment Output](screenshots/server-deployment.png)
+![deployment Output](Screenshots/agent-deployment.png)
+![deployment Output](Screenshots/server-deployment.png)
 
 //Reflection
 In this assignment, I learned how to deploy and manage a lightweight Kubernetes cluster using k3s on AWS. I gained practical experience in provisioning EC2 instances, configuring security groups, and setting up the necessary environment for a distributed system. I also learned how the k3s control plane (server) and worker nodes (agents) communicate, and how workloads are scheduled across the cluster. In addition, I improved my understanding of using Helm for application deployment and how Kubernetes resources such as pods and nodes are managed using kubectl commands. This helped me better understand how container orchestration works in real-world cloud environments.
