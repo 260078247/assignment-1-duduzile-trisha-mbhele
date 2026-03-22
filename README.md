@@ -90,21 +90,21 @@ Traefik is deployed by default in K3s to handle incoming traffic and expose serv
 Local-path provisioner is used for dynamic storage provisioning.
 This architecture is suitable for scalable and distributed applications, and mirrors real-world Kubernetes environments in a simplified way.
 
-## Cluster Verification
-### Nodes
+# Cluster Verification
+# Nodes
 ![Nodes Output](Screenshots/agent-nodes1.png)
 ![Nodes Output](Screenshots/server-nodes.png)
 
-### Pods
+# Pods
 ![Pods Output](Screenshots/agent-pods.png)
 ![Pods Output](Screenshots/server-pods.png)
 
-### running instances
+# running instances
 ![instances Output](Screenshots/ec2-instances-agent-server.png)
 ![ubuntu-sos Output](Screenshots/ec2-ubuntu-agent.png)
 ![ubuntu-sos Output](Screenshots/ec2-ubuntu-server1.png)
 
-### Deployment verification
+# Deployment verification
 ![deployment Output](Screenshots/agent-deployment.png)
 ![deployment Output](Screenshots/server-deployment.png)
 
