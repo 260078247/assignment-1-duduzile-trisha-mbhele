@@ -90,7 +90,7 @@ This architecture is suitable for scalable and distributed applications, and mir
 
 ## Cluster Verification
 ### Nodes
-![Nodes Output](Screenshots/agent-nodes.png)
+![Nodes Output](Screenshots/agent-nodes1.png)
 ![Nodes Output](Screenshots/server-nodes.png)
 
 ### Pods
@@ -98,7 +98,7 @@ This architecture is suitable for scalable and distributed applications, and mir
 ![Pods Output](Screenshots/server-pods.png)
 
 ### running instances
-![instances Output](Screenshots/ec2-instances-agent_server.png)
+![instances Output](Screenshots/ec2-instances-agent-server.png)
 ![ubuntu-sos Output](Screenshots/ec2-ubuntu-agent.png)
 ![ubuntu-sos Output](Screenshots/ec2-ubuntu-server.png)
 
