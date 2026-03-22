@@ -100,7 +100,7 @@ This architecture is suitable for scalable and distributed applications, and mir
 ### running instances
 ![instances Output](Screenshots/ec2-instances-agent-server.png)
 ![ubuntu-sos Output](Screenshots/ec2-ubuntu-agent.png)
-![ubuntu-sos Output](Screenshots/ec2-ubuntu-server.png)
+![ubuntu-sos Output](Screenshots/ec2-ubuntu-server1.png)
 
 ### Deployment verification
 ![deployment Output](Screenshots/agent-deployment.png)
