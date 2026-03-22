@@ -98,8 +98,7 @@ This architecture is suitable for scalable and distributed applications, and mir
 ![Pods Output](Screenshots/server-pods.png)
 
 ### running instances
-![instances Output](Screenshots/ec2-instance-agent.png)
-![instances Output](Screenshots/ec2-instance-server.png)
+![instances Output](Screenshots/ec2-instances-agent_server.png)
 ![ubuntu-sos Output](Screenshots/ec2-ubuntu-agent.png)
 ![ubuntu-sos Output](Screenshots/ec2-ubuntu-server.png)
 
