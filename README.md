@@ -250,23 +250,23 @@ Deployed Nginx application and exposed service via NodePort for external access
 
 # Cluster Verification
 # Nodes
-![Nodes Output](Screenshots/agent-nodes1.png)
-![Nodes Output](Screenshots/server-nodes.png)
+![Nodes Output](Screenshots/nodes-master-1-2-3.png)
 
 # Pods
-![Pods Output](Screenshots/agent-pods.png)
-![Pods Output](Screenshots/server-pods.png)
+![Pods Output](Screenshots/pods-master-1.png)
+![Pods Output](Screenshots/pods-master22.png)
+![Pods Output](Screenshots/pods-master3.png)
 
 # running instances
-![instances Output](Screenshots/ec2-instances-agent-server.png)
-![ubuntu-sos Output](Screenshots/ec2-ubuntu-agent.png)
-![ubuntu-sos Output](Screenshots/ec2-ubuntu-server1.png)
+![instances Output](Screenshots/instances-running.png)
+![ubuntu-sos Output](Screenshots/launch-3-ec2-instances.png)
+
 
 # Deployment verification
-![deployment Output](Screenshots/agent-deployment.png)
-![deployment Output](Screenshots/server-deployment.png)
+![deployment Output](Screenshots/ngix-verification.png)
 
-
+# Security group
+![security Output](Screenshots/security-group.png)
 
 # Reflection
 In this assignment, I learned how to design, deploy, and manage a highly available Kubernetes cluster using K3s on AWS EC2. The process gave me practical experience with cloud infrastructure, container orchestration, and distributed systems.
